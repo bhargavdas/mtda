@@ -1,0 +1,10 @@
+[Unit]
+Description=Service to monitor change in mtda config
+
+[Service]
+Type=simple
+ExecStart=systemctl restart mtda
+
+[Install]
+WantedBy=multi-user.target
+

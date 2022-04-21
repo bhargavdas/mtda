@@ -1,0 +1,9 @@
+[Unit]
+Description=Multi-Tenant Device Access
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/mtda-cli -d -n
+
+[Install]
+WantedBy=multi-user.target
