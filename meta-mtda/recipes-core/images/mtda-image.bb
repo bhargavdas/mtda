@@ -27,6 +27,4 @@ IMAGE_INSTALL:append = " \
         python3-zeroconf \
         python3-py3qterm \
         mjpg-streamer \
-        usb-ms-use-storage-config \
-        usb-ms-use-storage-service \
 "
