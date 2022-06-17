@@ -257,13 +257,13 @@ supported:
     Specify the GPIO line(chip) and pin number which will be used to control the relay.
     Format: <gpiochipx>@<pin>
     If multiple GPIO lines and pins are used seperate the entries using ','.
-    eg:
-    ```
-    # For single GPIO line
-    gpio = gpiochip0@201
-    # For multiple GPIO lines
-    gpio = gpiochip0@201,gpiochip1@11,gpiochip0@203
-    ```
+    
+    eg::
+
+        # For single GPIO line
+        gpio = gpiochip0@201
+        # For multiple GPIO lines
+        gpio = gpiochip0@201,gpiochip1@11,gpiochip0@203
 
 ``pduclient`` driver settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
