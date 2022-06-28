@@ -21,7 +21,6 @@ IMAGE_INSTALL:append = " \
         python3-daemon \ 
         python3-zopeinterface \
         openssh \
-        mtda-usb-functions \
         sd-mux-ctrl \
         pduclient \
         python3-zeroconf \
