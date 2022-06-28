@@ -3,12 +3,9 @@ SUMMARY = "MJPG-streamer takes JPGs from Linux-UVC compatible webcams, filesyste
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=751419260aa954499f7abaabaa882bbe"
 
-TAG ?= "1.0.0"
+SRCREV = "310b29f4a94c46652b20c4b7b6e5cf24e532af39"
 
-PV = "${TAG}+git${SRCPV}"
-SRCREV = "v${TAG}"
-
-SRC_URI = "git://github.com/jacksonliam/mjpg-streamer.git;protocol=https;nobranch=1"
+SRC_URI = "git://github.com/jacksonliam/mjpg-streamer.git;protocol=https"
 
 # Workaround multiple defined symbols
 TARGET_CFLAGS += "-fcommon"
@@ -25,4 +22,3 @@ EXTRA_OECMAKE = "-DENABLE_HTTP_MANAGEMENT=ON"
 do_install() {
     oe_runmake install DESTDIR=${D}
 }
-
