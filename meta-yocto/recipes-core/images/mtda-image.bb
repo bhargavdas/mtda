@@ -1,9 +1,6 @@
 SUMMARY = "Custom image for mtda"
 DESCRIPTION = "Custom image for mtda."
 
-# Default device/file to use for our USB Mass Storage Gadget
-#MTDA_MASS_STORAGE_FILE ??= "sda"
-
 # based on core image base
 include recipes-core/images/core-image-base.bb
 
