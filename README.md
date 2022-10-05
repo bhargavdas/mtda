@@ -7,7 +7,7 @@ device on or off (assuming an IP/USB power switch is available), plug USB device
 or out (also requiring special hardware) or simply access its console (in most cases
 serial).
 
-A sample setup is depicted below:
+A sample setup is depicted below::
 
 ![NanoPI setup](docs/neo_block_diagram.png)
 
