@@ -1,4 +1,15 @@
-SUMMARY = "MJPG-streamer takes JPGs from Linux-UVC compatible webcams, filesystem or other input plugins and streams them as M-JPEG via HTTP to webbrowsers, VLC and other software. It is the successor of uvc-streamer, a Linux-UVC streaming application with Pan/Tilt"
+# ---------------------------------------------------------------------------
+# This yocto layer is part of MTDA
+# Copyright (C) 2023 Siemens Digital Industrial Software
+# ---------------------------------------------------------------------------
+# SPDX-License-Identifier: MIT
+# ---------------------------------------------------------------------------
+
+SUMMARY = "MJPG-streamer takes JPGs from Linux-UVC compatible webcams,\
+	filesystem or other input plugins and streams them as M-JPEG \
+	via HTTP to webbrowsers, VLC and other software. It is the \
+	successor of uvc-streamer, a Linux-UVC streaming application \
+	with Pan/Tilt"
 
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=751419260aa954499f7abaabaa882bbe"

@@ -1,5 +1,14 @@
+# ---------------------------------------------------------------------------
+# This yocto layer is part of MTDA
+# Copyright (C) 2023 Siemens Digital Industrial Software
+# ---------------------------------------------------------------------------
+# SPDX-License-Identifier: MIT
+# ---------------------------------------------------------------------------
+
 SUMMARY = "Multi-Tenant Device Access"
-DESCRIPTION = "Multi-Tenant Device Access (or MTDA for short) is a relatively small Python application acting as an interface to a test device"
+DESCRIPTION = "Multi-Tenant Device Access (or MTDA for short) is a \
+	relatively small Python application acting as an interface \
+	to a test device"
 HOMEPAGE = "https://github.com/siemens/mtda "
 
 LICENSE = "MIT"

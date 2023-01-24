@@ -1,3 +1,10 @@
+# ---------------------------------------------------------------------------
+# This yocto layer is part of MTDA
+# Copyright (C) 2023 Siemens Digital Industrial Software
+# ---------------------------------------------------------------------------
+# SPDX-License-Identifier: MIT
+# ---------------------------------------------------------------------------
+
 SUMMARY = "recipe to install pduclient"
 DESCRIPTION = "recipe to install pduclient"
 

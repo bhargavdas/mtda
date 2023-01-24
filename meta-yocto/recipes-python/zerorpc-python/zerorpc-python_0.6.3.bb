@@ -1,5 +1,14 @@
-SUMMARY = "zerorpc is a flexible RPC implementation based on zeromq and messagepack"
-DESCRIPTION = "zerorpc is a flexible RPC implementation based on zeromq and messagepack"
+# ---------------------------------------------------------------------------
+# This yocto layer is part of MTDA
+# Copyright (C) 2023 Siemens Digital Industrial Software
+# ---------------------------------------------------------------------------
+# SPDX-License-Identifier: MIT
+# ---------------------------------------------------------------------------
+
+SUMMARY = "zerorpc is a flexible RPC implementation based on zeromq \
+	and messagepack"
+DESCRIPTION = "zerorpc is a flexible RPC implementation based on \
+	zeromq and messagepack"
 HOMEPAGE = " https://github.com/0rpc/zerorpc-python "
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302"

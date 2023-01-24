@@ -1,3 +1,10 @@
+# ---------------------------------------------------------------------------
+# This yocto layer is part of MTDA
+# Copyright (C) 2023 Siemens Digital Industrial Software
+# ---------------------------------------------------------------------------
+# SPDX-License-Identifier: MIT
+# ---------------------------------------------------------------------------
+
 DESCRIPTION = "Unlike the older pyqonsole this console widget works with \
                PyQt5/PySide2 and let's you embed a shell into your application."
 HOMEPAGE = "https://gitlab.com/mikeramsey/py3qtermwidget"
@@ -11,4 +18,3 @@ SRC_URI[sha256sum] = "88379580d5d155361e072520bae62e047ab3741eaeb8b07867ab4588ea
 inherit pypi setuptools3
 
 PYPI_PACKAGE = "py3qterm"
-

@@ -1,3 +1,10 @@
+# ---------------------------------------------------------------------------
+# This yocto layer is part of MTDA
+# Copyright (C) 2023 Siemens Digital Industrial Software
+# ---------------------------------------------------------------------------
+# SPDX-License-Identifier: MIT
+# ---------------------------------------------------------------------------
+
 SUMMARY = "sd-mux stands for Secure Digital Multiplexer"
 DESCRIPTION = "This is SD card switcher (multiplexer) designed to help automatic testing."
 HOMEPAGE = " https://wiki.tizen.org/SD_MUX "
