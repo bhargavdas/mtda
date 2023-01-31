@@ -36,6 +36,13 @@ do_install:append () {
     install -m 0644 ${S}/debian/mtda.service ${D}${systemd_system_unitdir}
     install -m 0644 ${S}/debian/mtda-config.service ${D}${systemd_system_unitdir}
     install -m 0644 ${S}/debian/mtda-config.path ${D}${systemd_system_unitdir}
+    install -d ${D}${sbindir}
+    install -m 0644 ${S}/mtda-systemd-helper ${D}${sbindir}
 }
 
-SYSTEMD_SERVICE:${PN} = "mtda.service mtda-config.service mtda-config.path"
+SYSTEMD_SERVICE:${PN} = "	\
+	mtda.service 		\
+	mtda-config.service 	\
+	mtda-config.path 	\
+	mtda-systemd-helper	\
+"
