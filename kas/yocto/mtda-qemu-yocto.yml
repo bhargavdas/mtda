@@ -50,6 +50,8 @@ local_conf_header:
     CONF_VERSION = "2"
     USER_CLASSES = "buildstats"
     PATCHRESOLVE = "noop"
+    INHERIT += "rm_work"
+    DISTRO_FEATURES:append = "usrmerge"
   debug-tweaks: |
     EXTRA_IMAGE_FEATURES = "debug-tweaks"
   diskmon: |
